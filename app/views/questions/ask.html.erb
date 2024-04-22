@@ -1,0 +1,12 @@
+<h1 class="m-4"> Stupid Coaching</h1>
+
+
+<form action="/answer" method="get" class="mx-4">
+  <label class="mb-1" for="ask_your_coach"><%= link_to "Ask your coach anything:", ask_path %></label>
+  <div class="input-group">
+    <input class="form-control" id="ask_your_coach" type="text" name="question" placeholder="Question">
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-primary">Ask</button>
+    </div>
+  </div>
+</form>

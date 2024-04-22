@@ -1,0 +1,12 @@
+
+<div class="container">
+  <h1 class="m-4"> Stupid Coaching</h1>
+  <div class="card my-2 p-2">
+    <p><%=params[:question]%></p>
+    <p><em>- You</em></p>
+  </div>
+  <div class="card p-2" id="answer-card">
+    <p><%= @answer %></p>
+    <p><em><%= link_to "- Your Coach", answer_path %></em></p>
+  </div>
+</div>
